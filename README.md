@@ -13,7 +13,7 @@ Two datasets were created:
 * `all_wkday_collision_05-14_within100m.csv` a subset of `weekday_collisions` where the collision occured within 100m of a school in Northern Ireland, with additional variables on the name and reference number of the _nearest_ school.
 * `schools_collisions.csv` which is the schools sites dataset with an additional column containing the number of collisions within 100m
 
-Unfortunately, we do not have the rights to reproduce the above datasets under the UK Data Archive standard access End User Licence. If/when the data becomes openly licenced, we will do so.
+Unfortunately, we do not have the rights to reproduce the above datasets under the UK Data Archive standard access End User Licence. If/[when](https://www.opendatani.gov.uk/datarequest/6a76e55a-0f4c-456b-8ff6-20696500b82b) the data becomes openly licenced, we will do so.
 
 ## near_schools_analysis.R
 Using `all_wkday_collision_05-14_within100m.csv` we are now able to undertake analysis of all collisions Mon-Fri that occured within 100m of a school site. This script carries out this analysis.
